@@ -1,0 +1,352 @@
+.bg_container {
+    background-size: cover;
+    background-color: #3a698910;
+    padding-bottom: 50px;
+
+}
+.text_container{
+    padding-left: 90px;
+}
+
+.image_container {
+    background-image: url("https://static.wixstatic.com/media/nsplsh_6d704e37786a4b515f4e73~mv2.jpg/v1/fill/w_1899,h_694,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/nsplsh_6d704e37786a4b515f4e73~mv2.jpg");
+    /*background: linear-gradient(45deg,rgba(0, 0, 0, 0.116),rgba(0, 0, 0, 0.057)) ;*/
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.techno_heading {
+    margin-left: 30px;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.techno_para {
+    margin-left: 30px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text_container {
+    padding: 20px;
+    margin-left: 250px;
+    font-size: 20px;
+
+}
+
+.product_title {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.enterprise_title {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para_content {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.solutions_container {
+    text-align: center;
+    padding: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.our_ent_heading {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 80px;
+}
+
+.software_para {
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.latest_tech_container {
+    text-align: center;
+    padding: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+}
+
+.fimage {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.latest_heading {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 80px;
+}
+
+.latest_tech_para {
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row_cards {
+    margin: 10px;
+    text-align: center;
+}
+
+
+.services {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.Technologies {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.platforms {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.company {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.contacts {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.hover_bg_container {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0e-_9LqjP1sGwoLaB_v0Hdo1aA8R1Klc1SA&usqp=CAU");
+    background-size: cover;
+    opacity: 0.8;
+    width: 22vw;
+    height: 80vh;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.hover_bg_container:hover{
+    display: visible;
+}
+
+
+.text{
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.928);
+    opacity: 0.9;
+    width: 24vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    color: white;
+    visibility: hidden;
+}
+.text:hover{
+    opacity: 1;
+    display:none;
+}
+
+.hover_bg_container_one {
+    background-image: url("https://img.freepik.com/free-vector/api-concept-illustration_114360-9822.jpg?w=740&t=st=1699990383~exp=1699990983~hmac=47bea03785998cfa8273a8c52166eff4f5d4d253ef2c1d1b2d2e2a4d1df72b33");
+    background-size: cover;
+    opacity: 0.9;
+    width: 24vw;
+    height: 80vh;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.hover_bg_container2 {
+    background-image: url("https://img.freepik.com/free-vector/appointment-booking-with-man-smartphone_23-2148554945.jpg?w=740&t=st=1699990533~exp=1699991133~hmac=867fdc538c5491085038452746ad9e2e702f9927f63d557c072bca155d1c23e9");
+    background-size: cover;
+    opacity: 0.9;
+    width: 24vw;
+    height: 80vh;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.hover_bg_container3 {
+    background-image: url("https://img.freepik.com/premium-vector/hr-personnel-recruiting-hiring-concept_70921-385.jpg?w=740");
+    background-size: cover;
+    opacity: 0.9;
+    width: 24vw;
+    height: 80vh;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: bold;
+    
+}
+.hover_container{
+    display: flex;
+}
+.para{
+    padding-top: 36vh;
+    font-size: larger;
+    font-weight: 400;
+    color: black;
+}
+.Navig{
+    color: white;
+}
+
+/* here is responsive code for screen less than 500px*/
+@media screen and (max-width: 1025px){
+    
+
+    
+    .bg_container {
+      padding-bottom: 30px;
+    }
+  
+    
+    .image_container {
+      height: auto;
+      max-width: 100%;
+    }
+  
+   
+    .text_container {
+      padding: 10px;
+      margin-left: 10px;
+      font-size: 20px; 
+    }
+  
+    
+    .product_title{
+        font-size: 25px; 
+    }
+    .enterprise_title{
+        font-size: 25px; 
+    }
+    .para_content{
+        font-size: 20px; 
+    }
+    .techno_heading{
+        font-size: 20px; 
+    }
+    .techno_para{
+        font-size: 20px; 
+    }
+    .software_para{
+        font-size: 20px; 
+    }
+    .latest_heading{
+        font-size: 24px; 
+    }
+    .latest_heading_one{
+        font-size: 25px;
+    }
+    .latest_heading_two{
+        font-size: 24px;
+    }
+    .latest_tech_para{
+        font-size: 20px; 
+    }
+    .latest_tech_para_one{
+        font-size: 20px;
+    }
+    .services{
+        font-size: 20px; 
+    }
+    .Technologies{
+        font-size: 20px; 
+    }
+    .platforms{
+        font-size: 20px; 
+    }
+    .company{
+        font-size: 20px; 
+    }
+    .contacts {
+      font-size: 20px; 
+    }
+  
+    
+    .our_ent_heading,
+    .latest_heading {
+      font-size: 30px; 
+      margin-top: 20px; 
+    }
+  
+    
+    .solutions_container,
+    .latest_tech_container {
+      padding: 20px; 
+    }
+    .para{
+        padding: 55px;
+    }
+  
+    
+    .hover_bg_container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .hover_bg_container_one{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .hover_bg_container2{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .hover_bg_container3 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+  
+    
+    .text {
+      width: 100%;
+      height: auto;
+      font-size: 14px; 
+    }
+  
+    .fimage {
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center; 
+      
+    }
+  
+
+}

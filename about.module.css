@@ -1,0 +1,157 @@
+.welcome{
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+    font-size: 50px;
+}
+
+.head_one{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+    font-size: 30px;
+}
+
+.head_two{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+    font-size: 30px;
+   
+}
+
+.nav{
+    background-color: white;
+    color: black;
+    /*margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;*/
+
+}
+
+.mission{
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.message{
+    justify-content:center ;
+    text-align: start;
+    margin-top: -400px;
+    margin-left: 550px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.theory{
+    background-color: rgba(0, 0, 0, 0.859);
+    color: white;
+    font-size: large;
+    padding: 90px;
+    padding-bottom: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.picture{
+  border-radius: 50%;
+  padding-top: 90px;
+  margin-left: 200px;
+  width: 220px;
+  height: 320px;
+  clip-path: circle(); 
+}
+.name{
+    margin-left: 200px;
+    margin-bottom: 0px;
+    margin-top: -80px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.designation{
+    margin-right: 720px;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+
+/* here is responsive code for screen less than 500px*/
+@media screen and (max-width: 1025px){
+    .welcome{
+    padding: 20px;
+    justify-content: center;
+    text-align: center; 
+    }
+
+  .theory{
+    padding: 20px;
+    justify-content: center;
+    text-align: center; 
+  }
+  .picture{
+    padding-top: -40px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center; 
+    padding-top: 60px;
+    height: 265px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 60px;
+  }
+  .name{
+    margin-top: -60px;
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .designation {
+    padding: 50px;
+    margin-top: -45px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+  }
+
+  .head {
+    font-size: 35px;
+    padding: 20px;
+  }
+
+  .head_one,
+  .head_two {
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .message {
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .mission {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .para_one,
+  .para_two{
+    font-size: 20px;
+  }
+  
+}
